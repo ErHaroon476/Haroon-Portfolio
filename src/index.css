@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%; /* ✅ This works for Chrome, Firefox, Edge */
+}
+
+
+/* ...your other global styles... */
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  transition: scrollbar-color 0.3s;
+}
+
+.custom-scrollbar.show-scrollbar {
+  scrollbar-color: rgba(255,255,255,0.1) transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.1);
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+@keyframes gradient-x {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-x {
+  animation: gradient-x 3s ease-in-out infinite;
+  background-size: 200% 200%;
+}
+
+body {
+  background-color: #1D2022FF;
+}
+body {
+  overflow-x: hidden;
+}
