@@ -114,15 +114,13 @@ const Navbar = () => {
   return (
     <div
       className={`fixed z-50 flex items-center justify-between transition-all duration-500 ${
-        mobileShrink ? 'h-[40px]' : 'h-[56px]'
-      } 
-      ${
-        scrolledToProjects
-          ? 'top-5 w-full max-w-[80%] md:max-w-[800px] bg-[#00ffffcc] hover:bg-[#00ffff] shadow-[0_0_20px_#00ffff80] rounded-[15px] left-1/2 -translate-x-1/2'
-          : 'top-0 w-full bg-transparent left-0 translate-x-0'
-      }
-      px-4 md:px-[70px]`}
-    >
+  mobileShrink ? 'h-[40px]' : 'h-[36px]'
+} ${
+  scrolledToProjects
+    ? 'top-5 w-full max-w-[80%] md:max-w-[800px] bg-[#00ffff] md:bg-[#00ffff90] md:hover:bg-[#00ffff] shadow-[0_0_20px_#00ffff80] rounded-[15px] left-1/2 -translate-x-1/2'
+    : 'top-0 w-full bg-transparent left-0 translate-x-0'
+} px-4 md:px-[70px]`}
+>
       {/* Logo */}
       <img
         src={HnLogo}
