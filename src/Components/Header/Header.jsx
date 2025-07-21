@@ -204,17 +204,19 @@ const Header = () => {
       </p>
     </div>
 
-    {/* ✅ Buttons */}
-    <div className="flex flex-row flex-wrap items-start gap-[12px] w-full max-w-[244px] h-auto">
-      <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
-        <button className="flex flex-row items-center justify-center px-4 py-2 w-auto min-w-[100px] sm:min-w-[110px] md:min-w-[115px] h-[40px] border-2 border-[#00FFFF] rounded-[8px] font-medium text-[14px] sm:text-[16px] md:text-[18px] leading-[20px] sm:leading-[24px] md:leading-[27px] font-['Roboto'] text-[#00FFFF] transition duration-300 hover:bg-[#00ced1] hover:text-black">
-          Resume
-        </button>
-      </a>
-      <button className="flex flex-row items-center justify-center px-4 py-2 w-auto min-w-[100px] sm:min-w-[110px] md:min-w-[117px] h-[40px] border-2 border-[#00FFFF] rounded-[8px] font-medium text-[14px] sm:text-[16px] md:text-[18px] leading-[20px] sm:leading-[24px] md:leading-[27px] font-['Roboto'] text-[#00FFFF] transition duration-300 hover:bg-[#00ced1] hover:text-black">
-        Linkedin
-      </button>
-    </div>
+  {/* ✅ Buttons */}
+<div className="flex flex-row flex-wrap items-start gap-[12px] w-full max-w-[244px] h-auto">
+  <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
+    <button className="flex flex-row items-center justify-center px-4 py-2 w-auto min-w-[100px] sm:min-w-[110px] md:min-w-[115px] h-[40px] border-2 border-[#00FFFF] rounded-[8px] font-medium text-[14px] sm:text-[16px] md:text-[18px] leading-[20px] sm:leading-[24px] md:leading-[27px] font-['Roboto'] text-[#000000] bg-[#00FFFF80] transition duration-200 ease-in-out hover:bg-[#00ffff] hover:text-black active:scale-95">
+      Resume
+    </button>
+  </a>
+
+  <button className="flex flex-row items-center justify-center px-4 py-2 w-auto min-w-[100px] sm:min-w-[110px] md:min-w-[117px] h-[40px] border-2 border-[#00FFFF] rounded-[8px] font-medium text-[14px] sm:text-[16px] md:text-[18px] leading-[20px] sm:leading-[24px] md:leading-[27px] font-['Roboto'] text-[#00FFFF] transition duration-200 ease-in-out hover:bg-[#00ced1] hover:text-black active:scale-95">
+    Linkedin
+  </button>
+</div>
+
   </div>
 </div>
 
