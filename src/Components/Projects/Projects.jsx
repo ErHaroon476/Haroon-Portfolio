@@ -35,15 +35,16 @@ const Projects = () => {
 
       {/* Project 1 */}
       <div
-        className="
-          flex flex-col md:flex-row md:items-center items-start
-          w-full overflow-hidden rounded-2xl
-          bg-[#0f172a] border border-[#00ffff40]
-          shadow-lg
-          transition hover:shadow-[0_0_40px_#00ffff30]
-        "
-      >
-        <img
+  className="
+    flex flex-col md:flex-row md:items-center items-start
+    w-full overflow-hidden rounded-2xl
+    bg-[#0f172a] border border-[#00ffff40]
+    shadow-lg
+    transition hover:shadow-[0_0_40px_#00ffff30]
+  "
+  data-aos="fade-up"
+  data-aos-delay="100"
+>  <img
           src={pro1}
           alt="Rental Ev Bikes Management and Monitoring System"
           className="w-full md:w-1/2 h-[250px] md:h-auto object-cover rounded-lg shadow"
@@ -65,15 +66,17 @@ const Projects = () => {
       </div>
 
       {/* Project 2 */}
-      <div
-        className="
-          flex flex-col md:flex-row-reverse md:items-center items-start
-          w-full overflow-hidden rounded-2xl
-          bg-[#0f172a] border border-[#00ffff40]
-          shadow-lg
-          transition hover:shadow-[0_0_40px_#00ffff30]
-        "
-      >
+   <div
+  className="
+    flex flex-col md:flex-row-reverse md:items-center items-start
+    w-full overflow-hidden rounded-2xl
+    bg-[#0f172a] border border-[#00ffff40]
+    shadow-lg
+    transition hover:shadow-[0_0_40px_#00ffff30]
+  "
+  data-aos="fade-up"
+  data-aos-delay="200"
+>
         <img
           src={pro2}
           alt="Embedded Kitchen Safety System"
@@ -99,14 +102,16 @@ const Projects = () => {
 
       {/* Project 3 */}
       <div
-        className="
-          flex flex-col md:flex-row md:items-center items-start
-          w-full overflow-hidden rounded-2xl
-          bg-[#0f172a] border border-[#00ffff40]
-          shadow-lg
-          transition hover:shadow-[0_0_40px_#00ffff30]
-        "
-      >
+  className="
+    flex flex-col md:flex-row md:items-center items-start
+    w-full overflow-hidden rounded-2xl
+    bg-[#0f172a] border border-[#00ffff40]
+    shadow-lg
+    transition hover:shadow-[0_0_40px_#00ffff30]
+  "
+  data-aos="fade-up"
+  data-aos-delay="300"
+>
         <img
           src={pro3}
           alt="AI Web Integrations"
