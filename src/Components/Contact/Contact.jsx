@@ -87,7 +87,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="https://linkedin.com/in/haroon-nasim/6a8432375/"
+              href="https://linkedin.com/in/haroon-nasim-6a8432375"
               className="hover:underline"
               target="_blank"
               rel="noopener noreferrer"

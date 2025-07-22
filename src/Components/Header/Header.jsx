@@ -212,7 +212,7 @@ const Header = () => {
     </button>
   </a>
 
-  <a href="https://linkedin.com/in/haroon-nasim/6a8432375/" target="_blank" rel="noopener noreferrer">
+  <a href="https://linkedin.com/in/haroon-nasim-6a8432375" target="_blank" rel="noopener noreferrer">
   
   <button className="flex flex-row items-center justify-center px-4 py-2 w-auto min-w-[100px] sm:min-w-[110px] md:min-w-[117px] h-[40px] border-2 border-[#00FFFF] rounded-[8px] font-medium text-[14px] sm:text-[16px] md:text-[18px] leading-[20px] sm:leading-[24px] md:leading-[27px] font-['Roboto'] text-[#00FFFF] transition duration-200 ease-in-out hover:bg-[#00ced1] hover:text-black active:scale-95">
     Linkedin
