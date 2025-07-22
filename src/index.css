@@ -57,3 +57,35 @@ body {
 body {
   overflow-x: hidden;
 }
+
+/* Skills component custom colors */
+:root {
+  --dark-bg: hsl(240, 10%, 3.9%);
+  --skill-bg: hsl(240, 3.7%, 16.5%);
+  --skill-hover: hsl(240, 3.7%, 22.9%);
+  --accent-blue: hsl(213, 94%, 68%);
+  --accent-green: hsl(142, 76%, 36%);
+  --accent-purple: hsl(263, 70%, 50%);
+  --accent-orange: hsl(25, 95%, 53%);
+  --accent-pink: hsl(330, 81%, 60%);
+  --accent-cyan: hsl(187, 85%, 53%);
+  --accent-red: hsl(0, 84%, 60%);
+  --accent-yellow: hsl(48, 96%, 53%);
+  --text-primary: hsl(0, 0%, 98%);
+  --text-secondary: hsl(240, 5%, 64.9%);
+}
+
+@keyframes fadeIn {
+  from { 
+    opacity: 0; 
+    transform: translateY(10px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+.skill-fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
