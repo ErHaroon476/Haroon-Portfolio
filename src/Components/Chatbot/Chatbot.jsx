@@ -36,7 +36,7 @@ const Chatbot = () => {
           Authorization: `Bearer ${key}`,
         },
         body: JSON.stringify({
-          model: "deepseek/deepseek-chat:free",
+          model: "deepseek/deepseek-chat",
           messages: [
             {
               role: "system",
