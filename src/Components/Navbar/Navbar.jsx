@@ -132,12 +132,13 @@ const Navbar = () => {
       />
 
       {/* Nav links */}
-      <div
-        ref={containerRef}
-        className={`relative flex flex-row items-center ${
-          !scrolledToProjects ? 'gap-[18px]' : 'gap-[14px]'
-        }`}
-      >
+   <div
+  ref={containerRef}
+  className={`relative flex flex-row items-center ${
+    !scrolledToProjects ? 'gap-[10px] md:gap-[18px]' : 'gap-[8px] md:gap-[14px]'
+  }`}
+>
+
         <div
           ref={indicatorRef}
           className="absolute top-1/2 -translate-y-1/2 h-[32px] bg-[#333333] rounded-[12px] transition-all duration-300 ease-in-out"
