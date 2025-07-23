@@ -167,15 +167,16 @@ const Navbar = () => {
               setActive(item.label);
             }}
           >
-            <p
-              data-label={item.label}
-              className={`relative cursor-pointer px-3 py-1 z-10 transition-colors duration-300 ${
-                active === item.label ? 'text-white' : 'text-black'
-              } 
-                before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-[2px] before:scale-x-0 before:bg-current before:origin-left before:transition-transform before:duration-300 hover:before:scale-x-100`}
-            >
-              {item.label}
-            </p>
+         <p
+  data-label={item.label}
+  className={`relative cursor-pointer text-sm md:text-base px-2 md:px-3 py-0.5 md:py-1 z-10 transition-colors duration-300 ${
+    active === item.label ? 'text-white' : 'text-black'
+  } 
+    before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-[2px] before:scale-x-0 before:bg-current before:origin-left before:transition-transform before:duration-300 hover:before:scale-x-100`}
+>
+  {item.label}
+</p>
+
           </a>
         ))}
       </div>
