@@ -199,22 +199,21 @@ const Header = () => {
     {/* ✅ Description */}
     <div className="flex flex-col items-start gap-[12px] w-full">
       <p className="w-full text-[14px] sm:text-[18px] md:text-[24px] leading-[22px] sm:leading-[28px] md:leading-[36px] font-normal text-[#828282] font-['Nunito']">
-        I craft intuitive, modern interfaces for digital products. My mission
-        is to make technology clear, beautiful, and easy to use.
+       I design and build seamless, modern digital experiences by combining full-stack development with AI-powered solutions. My mission is to make technology intelligent, intuitive, and visually compelling — bridging functionality with user-centered design.
       </p>
     </div>
 
   {/* ✅ Buttons */}
 <div className="flex flex-row flex-wrap items-start gap-[12px] w-full max-w-[244px] h-auto">
   <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
-    <button className="flex flex-row items-center justify-center px-4 py-2 w-auto min-w-[100px] sm:min-w-[110px] md:min-w-[115px] h-[40px]  rounded-[8px] font-medium text-[14px] sm:text-[16px] md:text-[18px] leading-[20px] sm:leading-[24px] md:leading-[27px] font-['Roboto'] text-[#000000] bg-[#00FFFF] transition duration-200 ease-in-out hover:bg-[#EE82EE] hover:text-black active:scale-95">
+    <button className="flex flex-row items-center justify-center px-4 py-2 w-auto min-w-[100px] sm:min-w-[110px] md:min-w-[115px] h-[40px]  rounded-[8px] font-medium text-[14px] sm:text-[16px] md:text-[18px] leading-[20px] sm:leading-[24px] md:leading-[27px] font-['Roboto'] text-[#000000] bg-[#00FFFF] transition duration-200 ease-in-out hover:bg-[#EE82EE] hover:text-black active:fill-[#EE82EE] active:opacity-100 active:scale-95">
       Resume
     </button>
   </a>
 
   <a href="https://linkedin.com/in/haroon-nasim-6a8432375" target="_blank" rel="noopener noreferrer">
   
-  <button className="flex flex-row items-center justify-center px-4 py-2 w-auto min-w-[100px] sm:min-w-[110px] md:min-w-[117px] h-[40px] border-2 border-[#00FFFF] rounded-[8px] font-medium text-[14px] sm:text-[16px] md:text-[18px] leading-[20px] sm:leading-[24px] md:leading-[27px] font-['Roboto'] text-[#00FFFF] transition duration-200 ease-in-out hover:bg-[#00ced1] hover:text-black active:scale-95">
+  <button className="flex flex-row items-center justify-center px-4 py-2 w-auto min-w-[100px] sm:min-w-[110px] md:min-w-[117px] h-[40px] border-2 border-[#00FFFF] rounded-[8px] font-medium text-[14px] sm:text-[16px] md:text-[18px] leading-[20px] sm:leading-[24px] md:leading-[27px] font-['Roboto'] text-[#00FFFF] transition duration-200 ease-in-out hover:bg-[#00ced1] hover:text-black active:fill-[#EE82EE40] active:opacity-100active:scale-95">
     Linkedin
   </button>
 </a>
