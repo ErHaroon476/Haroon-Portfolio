@@ -57,7 +57,7 @@ const Projects = () => {
             We developed a smart EV rental and monitoring system featuring a mobile app for unlocking bikes via OTP through bike keypad , live ride tracking, and time monitoring. An admin web portal allows full fleet management. Additionally, we built custom hardware for accident detection, emergency calling, and real-time GPS tracking to ensure safety and efficient operations.
           </p>
           <a
-            href="#"
+            href="/fyp.pdf " target="_blank" rel="noopener noreferrer"
             className="inline-block border border-[#00ffff] text-[#00ffff] px-6 py-3 rounded-full hover:bg-[#00ffff] hover:text-black transition"
           >
             View Project
@@ -79,12 +79,12 @@ const Projects = () => {
 >
         <img
           src={pro2}
-          alt="Embedded Kitchen Safety System"
+          alt="Embedded Environment System"
           className="w-full md:w-1/2 h-[250px] md:h-auto object-cover rounded-lg shadow"
         />
         <div className="flex flex-col justify-center p-8 w-full md:w-1/2 text-white">
           <h3 className="text-3xl font-bold text-[#00ffff] mb-4">
-            EMBEDDED ENVIRONMENT SAFETY SYSTEM
+            EMBEDDED ENVIRONMENT MONITORING SYSTEM
           </h3>
           <p className="text-gray-300 mb-6">
             An IoT-based embedded system designed to enhance safety in indoor spaces such as kitchens, labs, and small industrial setups. It continuously monitors gas levels, AQI, and temperature in real-time. When any value exceeds safe limits, it automatically sends alerts and activates a buzzer to warn occupants.
@@ -92,7 +92,7 @@ const Projects = () => {
             The system is compact, reliable, and ideal for preventing accidents caused by gas leaks, poor air quality, or overheating. It ensures continuous environmental surveillance, offering an affordable and responsive safety solution for enclosed areas.
           </p>
           <a
-            href="#"
+            href="/ess.pdf" target="_blank" rel="noopener noreferrer"
             className="inline-block border border-[#00ffff] text-[#00ffff] px-6 py-3 rounded-full hover:bg-[#00ffff] hover:text-black transition"
           >
             View Project
@@ -127,7 +127,7 @@ const Projects = () => {
             The system uses structured prompts and ChatML to provide contextual and relevant replies, making websites more intuitive and responsive. Designed with scalability in mind, it supports multiple AI providers and is ideal for customer support, education, or productivity-based platforms.
           </p>
           <a
-            href="#"
+            href="#contact"
             className="inline-block border border-[#00ffff] text-[#00ffff] px-6 py-3 rounded-full hover:bg-[#00ffff] hover:text-black transition"
           >
             View Project
