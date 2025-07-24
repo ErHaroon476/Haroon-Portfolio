@@ -10,23 +10,26 @@ const skillsData = [
   { name: "AI Agents", categories: ["All", "AI/ML"], color: "var(--accent-cyan)" },
   { name: "LangChain", categories: ["All", "AI/ML"], color: "var(--accent-green)" },
   { name: "Voice Assistants", categories: ["All", "AI/ML"], color: "var(--accent-pink)" },
-  { name: "RAG Systems", categories: ["All", "AI/ML"], color: "var(--accent-red)" },
-  { name: "Django", categories: ["All", "Backend"], color: "var(--accent-green)" },
   { name: "FastAPI", categories: ["All", "Backend"], color: "var(--accent-green)" },
-  { name: "Celery", categories: ["All", "Backend"], color: "var(--accent-green)" },
   { name: "Express", categories: ["All", "Backend"], color: "var(--accent-yellow)" },
   { name: "Node.js", categories: ["All", "Backend"], color: "var(--accent-green)" },
   { name: "MongoDB", categories: ["All", "Backend"], color: "var(--accent-green)" },
   { name: "PostgreSQL", categories: ["All", "Backend"], color: "var(--accent-blue)" },
-  { name: "Redis", categories: ["All", "Backend"], color: "var(--accent-red)" },
   { name: "Vector DBs", categories: ["All", "Backend", "AI/ML"], color: "var(--accent-purple)" },
-  { name: "Docker", categories: ["All", "Backend"], color: "var(--accent-blue)" },
   { name: "React", categories: ["All", "Frontend"], color: "var(--accent-cyan)" },
   { name: "Next.js", categories: ["All", "Frontend"], color: "var(--accent-blue)" },
+  
+  // New Hardware Skills
+  { name: "STM32", categories: ["All", "Hardware"], color: "var(--accent-purple)" },
+  { name: "Arduino", categories: ["All", "Hardware"], color: "var(--accent-blue)" },
+  { name: "Circuit Design", categories: ["All", "Hardware"], color: "var(--accent-red)" },
+  { name: "ESP32", categories: ["All", "Hardware"], color: "var(--accent-green)" },
+  { name: "Raspberry Pi 4", categories: ["All", "Hardware"], color: "var(--accent-orange)" },
+
   { name: "+ More", categories: ["All"], color: "var(--accent-blue)" }
 ];
 
-const categories = ["All", "AI/ML", "Backend", "Frontend"];
+const categories = ["All", "AI/ML", "Backend", "Frontend", "Hardware"];
 
 export default function Skills() {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -49,9 +52,9 @@ export default function Skills() {
           className="text-lg md:text-xl leading-relaxed max-w-4xl"
           style={{ color: "var(--text-secondary)" }}
         >
-          Proficient in full-stack development with expertise in modern web technologies, backend systems, and AI/ML integration.
-          Specialized in building intelligent applications using Large Language Models, developing AI agents, and creating scalable
-          solutions that bridge traditional software engineering with cutting-edge AI capabilities.
+          Proficient in full-stack development with expertise in modern web technologies, backend systems, AI/ML, and embedded hardware.
+          Specialized in building intelligent applications using Large Language Models, developing AI agents, creating scalable systems,
+          and integrating hardware platforms for smart edge solutions.
         </p>
       </div>
 
